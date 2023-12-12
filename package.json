@@ -1,0 +1,20 @@
+{
+  "name": "book-library",
+  "version": "1.0.0",
+  "description": "\"books library to add, delete, or update the books data\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Rajesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^5.0.0"
+  }
+}
